@@ -1,0 +1,77 @@
+body{
+    color: red;
+    text-rendering:red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    border: coral;
+    border-image: 14%;
+    mask-image: none;
+}
+@media screen and(max-width: 900{
+    body{
+        background: #F9C;
+    }  
+}    
+@media screen and(min-width: 400{
+    body{
+        background: blue;
+    }
+    
+}
+.class1{
+    color: black;
+    text-rendering: black;
+
+}
+#id1{ 
+    color: blue;
+    text-rendering: blue;
+
+
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: normal;
+    text-align: center;
+    color: blueviolet;
+}
+.inferior{
+    text-decoration: underline;
+
+}
+.Superior{
+    text-decoration: overline;
+
+}
+.Centro{
+    text-decoration: line-through;
+
+}
+.Piscando{
+    text-decoration: wavy;
+    font-style: ;
+
+}
+a:link{
+    background-color: aqua;
+    color: black;
+}
+a:visited{
+    background-color: blueviolet;
+    color: red;
+}
+a:hover{
+    background-color: beige;
+    color: green;
+}
+a:active{
+    background-color: brown;
+    color: fuchsia;
+}
+ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-image: url(/imagens/esquilo.jpg);
+    list-style-position:inside ;
+}
+
